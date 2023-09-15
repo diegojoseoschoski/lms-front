@@ -1,27 +1,42 @@
-# LmsFront
+# lms-front
+Learning system managment using Angular
 
+## Requirements
+
+For building and running the application you need:
+
+- [Angular cli 11]
+- [Node > 10]
+
+## Steps to run
+1. Build the project using
+  `npm install`
+2. Run using
+  `ng serve`
+3. The web application is accessible via http://localhost:4200
+4. Use username and password as 'admin' to log as admin user
+
+## Documentation
+Acess the swagguer documentation via http://localhost:8080/swagger-ui/index.html
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.1.
 
-## Development server
+## Features
+- [x] Students shall be able to self-register by providing basic demographic information and contact information
+- Student shall be a minimum of 16 years old
+- Student shall not be able to register more than once with the same email address
+- First name, last name, DOB, address, email, phone number are mandatory
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- [x] An administrator shall be able to create/set up a set of courses
+Business Rules:
+- Student shall be a minimum of 16 years old
+- Student shall not be able to register more than once with the same email address
+- First name, last name, DOB, address, email, phone number are mandatory
 
-## Code scaffolding
+- [x] Student shall be able to select and start the learning process
+Business Rules:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- [x] Student shall not be able to register/select more than three courses at a time
+- (I didn't finish this features above)
+- [] Student shall be able to log the hours for the day by entering:
+- [] Student shall be able to log multiple hours for the same day
+- [] Student should be able to update and delete a log.
