@@ -36,7 +36,9 @@ Business Rules:
 Business Rules:
 
 - [x] Student shall not be able to register/select more than three courses at a time
-- (I didn't finish this features above)
+  
+  ## Unfinished features
+
 - [] Student shall be able to log the hours for the day by entering:
 - [] Student shall be able to log multiple hours for the same day
 - [] Student should be able to update and delete a log.
