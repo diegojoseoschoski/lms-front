@@ -28,10 +28,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 - [x] An administrator shall be able to create/set up a set of courses
 Business Rules:
-- Student shall be a minimum of 16 years old
-- Student shall not be able to register more than once with the same email address
-- First name, last name, DOB, address, email, phone number are mandatory
-
+- Course name shall be unique
+- Only administrator will have access to course management
+- Course shall be completed within 6 months of start date
 - [x] Student shall be able to select and start the learning process
 Business Rules:
 
